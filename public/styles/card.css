@@ -1,0 +1,12 @@
+.btn-primary {
+    color: #ffd500;
+    background-color: #191919;
+    border-radius: 50px;
+    justify-content: space-between;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #191919;
+    background-color: #ffd500;
+}

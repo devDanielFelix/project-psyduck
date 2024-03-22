@@ -2,17 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Acquisition;
+use App\Models\Purchase;
 use Illuminate\Http\Request;
 
-class AcquisitionController extends Controller
+class PurchaseController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('events/compra');
+        return view('/events/compra');
     }
 
     /**
@@ -34,7 +34,7 @@ class AcquisitionController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Acquisition $acquisition)
+    public function show(Purchase $purchase)
     {
         //
     }
@@ -42,7 +42,7 @@ class AcquisitionController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Acquisition $acquisition)
+    public function edit(Purchase $purchase)
     {
         //
     }
@@ -50,7 +50,7 @@ class AcquisitionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Acquisition $acquisition)
+    public function update(Request $request, Purchase $purchase)
     {
         //
     }
@@ -58,7 +58,7 @@ class AcquisitionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Acquisition $acquisition)
+    public function destroy(Purchase $purchase)
     {
         //
     }

@@ -1,9 +1,9 @@
 <?php
 
-use App\Http\Controllers\AcquisitionController;
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-
+use App\Http\Controllers\PurchaseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +17,5 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
-Route::get('/create', [HomeController::class, 'create']);
 
-Route::get('/compra', [AcquisitionController::class, 'index']);
+Route::get('/compra', [PurchaseController::class, 'index']);

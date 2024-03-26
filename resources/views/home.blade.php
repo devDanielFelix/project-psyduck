@@ -20,7 +20,7 @@
             <h3 class="subtitle">Veja os produtos em destaque:</h3>
             <div id="cards-container" class="row">
                 <div class="card col-md-3">
-                    <img src="img/Kelce_philadelphia_eagles_62.jpg" alt="Jersey Kelce 62 green">
+                    <img src="img/Kelce_philadelphia_eagles_62.jpg" class="card-image" alt="Jersey Kelce 62 green">
                     <div class="card-body">
                         <p class="card-description">Philadelphia Eagles Kelce 62</p>
                         <h6 class="card-title">Jersey Philadelphia Eagles</h6>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="card col-md-3">
-                    <img src="img/Kelce_philadelphia_eagles_62.jpg" alt="Jersey Kelce 62 green">
+                    <img src="img/Kelce_philadelphia_eagles_62.jpg" class="card-image" alt="Jersey Kelce 62 green">
                     <div class="card-body">
                         <p class="card-description">Philadelphia Eagles Kelce 62</p>
                         <h6 class="card-title">Jersey Philadelphia Eagles</h6>

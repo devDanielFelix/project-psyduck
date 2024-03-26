@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-bottom: 1px solid #ccc;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     justify-content: space-between;
@@ -23,10 +23,11 @@ header {
 .nav-image {
     width: 60px;
     height: auto;
+    justify-content: start;
 }
 
 #search-container form {
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;

@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/card.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">Psyduck Store</a>
             <img src="/img/psyduck.png" class="nav-image" alt="LogoMarca">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,15 +42,13 @@
                         <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
-
-                <div id="search-container">
-                    <form class="form-inline ml-auto" action="/" method="GET">
-                        <input type="text" id="search" name="search" autocomplete="off" class="form-control mr-sm-2" placeholder="Pesquisa Psyduck Store">
-                    </form>
-                </div>
             </div>
         </nav>
-
+        <div id="search-container">
+            <form class="form-inline ml-auto" action="/" method="GET">
+                <input type="text" id="search" name="search" autocomplete="off" class="form-control mr-sm-2" placeholder="Pesquisa Psyduck Store">
+            </form>
+        </div>
     </header>
 
     <main>
